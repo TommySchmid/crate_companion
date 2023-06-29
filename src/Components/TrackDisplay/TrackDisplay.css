@@ -1,0 +1,40 @@
+.tracksContainer {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.trackListContainer {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+}
+
+.topTrackList {
+   margin: 5px;
+   padding: 10px;
+   background-color: #fbeee0;
+   border-radius: 25px;
+   border: 2px solid #422800;
+   color: #422800;
+   box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+   min-width: 350px;
+}
+
+.tracksHeader {
+   margin: 5px;
+   padding: 10px;
+   background-color: #fbeee0;
+   border-radius: 25px;
+   border: 2px solid #422800;
+   color: #422800;
+   box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+   min-width: 350px;
+}
+
+@media screen and (max-width: 400px) {
+   .trackListContainer {
+      flex-direction: column;
+      align-items: center;
+   }
+}
