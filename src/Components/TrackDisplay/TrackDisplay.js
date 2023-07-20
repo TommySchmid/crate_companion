@@ -6,7 +6,6 @@ const TrackDisplay = (topTracks) => {
    let trackList1 = topTracks.topTracks.slice(0, 5)
    let trackList2 = topTracks.topTracks.slice(5, 10)
 
-   console.log(trackList1, trackList2)
    return (
       <div className="tracksContainer">
          <div className="tracksHeader">Keep an eye out for these top tracks!</div>

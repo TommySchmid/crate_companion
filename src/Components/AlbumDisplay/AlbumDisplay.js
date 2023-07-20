@@ -3,7 +3,6 @@ import React from 'react'
 import './AlbumDisplay.css'
 
 const AlbumDisplay = (topAlbums) => {
-   console.log(topAlbums)
    return (
       <div className="albums">
          {topAlbums.topAlbums.map((element) => (
